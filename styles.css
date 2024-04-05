@@ -1,0 +1,103 @@
+/* styles.css */
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Container styles */
+.container {
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.listings-container {
+    width: 80%; /* Adjust container width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    padding-top: 20px; /* Adjust top padding */
+}
+
+
+/* Input styles */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Submit button styles */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Hover effect for submit button */
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Captcha box styles */
+.captcha-box img {
+    display: inline-block;
+    vertical-align: middle; /* Aligns the image vertically with the text */
+    margin-right: 10px; /* Adjust margin as needed */
+}
+
+/* Dashboard options list styles */
+.dashboard-options li {
+    list-style-type: none; /* Remove bullet points */
+    margin-bottom: 10px; /* Adjust spacing between options */
+}
+
+/* Dashboard options link styles */
+.dashboard-options li a {
+    display: inline-block;
+    padding: 10px; /* Equal padding on all sides */
+    text-align: center;
+    width: 80%;
+    background-color: #007bff; /* Change button color as needed */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Hover effect for dashboard options */
+.dashboard-options li a:hover {
+    background-color: #0056b3; /* Darker color on hover */
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+#description {
+    width: 100%;
+    height: 100px; /* Adjust height as needed */
+    resize: vertical; /* Allow vertical resizing */
+}
+
+#category {
+    width: 100%;
+    margin-bottom: 10px; /* Add some space below the dropdown */
+}
